@@ -116,9 +116,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application_Main.cpp" />
+    <ClCompile Include="File_Reader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="File_Reader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\Users\Alex_\OneDrive\Desktop\Specialist_Schedule-17-18.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

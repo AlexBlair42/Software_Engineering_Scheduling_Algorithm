@@ -17,6 +17,13 @@ Write Sorting Algorithm
 
 Rules for Code:
 
+PLEASE DO NOT "using namespace std;"!!!
+Always use std::
+Example std::cout
+
+If there are elements that you find are used a lot then it is ok to using std::cout at the top of a file,
+but do not using namespace std;
+
 Please Make all function definitions in a header file
 
 Naming should be as follows: Capital....._Capital.....
