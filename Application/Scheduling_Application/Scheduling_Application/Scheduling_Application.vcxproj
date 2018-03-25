@@ -120,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="File_Reader.h" />
+    <ClInclude Include="Menu.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\Users\Alex_\OneDrive\Desktop\Specialist_Schedule-17-18.csv" />
