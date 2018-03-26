@@ -1,5 +1,8 @@
 #include <iostream>
-#include <fstream>
+#include <String>
+using std::endl;
+using std::cout;
+using std::cin;
 
 int main()
 {
@@ -7,5 +10,5 @@ int main()
 
 
 
-	std::cin.get()
+	std::cin.get();
 }

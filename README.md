@@ -4,8 +4,8 @@ This is a repository dedicated to our work for Software Engineering at Whitworth
 
 Goals:
 
-By Friday March 16, 2018 have the C++ code for CSV file format parsing complete
-as well as C++ code to read in a file from an Excel Spreadsheet in CSV format. 
+Create Main Menu and Edit File Reader for fully recognizing Data Read.
+Make sure Data from read can be manipulated.
 
 Extended Deliverable Time line: 
 
@@ -46,7 +46,7 @@ Please check GitHub regularly.
 
 
 Objectives:
-	Create File Read and Write
+	Create File Write and Edit File Reader
 	Create Sorting Algorithm
 	Create parameters for consideration for sorting
 	
