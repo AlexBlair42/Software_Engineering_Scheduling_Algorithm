@@ -4,5 +4,6 @@
 class Main_Menu
 {
 public:
-	void Display_Menu(std::string choice);
+	void Set_Up_Menu();
+	void Selection();
 };
