@@ -1,9 +1,6 @@
 #pragma once
 #include <string>
+#include <iostream>
 
-class Main_Menu
-{
-public:
-	void Set_Up_Menu();
-	void Selection();
-};
+void SetUpMenu();
+void Choice();
