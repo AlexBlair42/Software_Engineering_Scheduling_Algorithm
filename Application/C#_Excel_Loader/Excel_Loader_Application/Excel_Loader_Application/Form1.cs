@@ -21,6 +21,7 @@ namespace Excel_Loader_Application
 
         DataSet result;
 
+        //controls for the "open button"
         private void button1_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog ofd = new OpenFileDialog() {Filter = "TestExcel1|*.xlsx", ValidateNames = true})
@@ -47,10 +48,18 @@ namespace Excel_Loader_Application
             }
         }
 
+        //controls for "Save" button
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void cboSheet_SelectedIndexChanged(object sender, EventArgs e)
         {
             dataGridView1.DataSource = result.Tables[cboSheet.SelectedIndex];
 
         }
+
+
     }
 }
