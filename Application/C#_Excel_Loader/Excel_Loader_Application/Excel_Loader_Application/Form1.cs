@@ -23,7 +23,7 @@ namespace Excel_Loader_Application
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (OpenFileDialog ofd = new OpenFileDialog() {Filter = "TestExcel1|*.xlsx", ValidateNames = true})
+            using (OpenFileDialog ofd = new OpenFileDialog() {Filter = "TestExcel|*.xlsx", ValidateNames = true})
             {
                 if (ofd.ShowDialog() == DialogResult.OK)
                 {
@@ -50,6 +50,11 @@ namespace Excel_Loader_Application
         private void cboSheet_SelectedIndexChanged(object sender, EventArgs e)
         {
             dataGridView1.DataSource = result.Tables[cboSheet.SelectedIndex];
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }
