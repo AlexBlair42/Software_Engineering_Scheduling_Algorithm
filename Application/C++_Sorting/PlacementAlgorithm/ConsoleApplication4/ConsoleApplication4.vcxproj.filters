@@ -35,5 +35,38 @@
     <ClInclude Include="Duley.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Oas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Nunley.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Van_Fossen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Connor_Boyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="May.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Surby.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jordan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tilton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Caldwell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

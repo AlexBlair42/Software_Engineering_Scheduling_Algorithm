@@ -144,9 +144,20 @@
     <ClCompile Include="Teacher.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Caldwell.h" />
+    <ClInclude Include="Connor_Boyle.h" />
     <ClInclude Include="Duley.h" />
     <ClInclude Include="FillWeek.h" />
+    <ClInclude Include="Jordan.h" />
+    <ClInclude Include="Kinne.h" />
+    <ClInclude Include="May.h" />
+    <ClInclude Include="Nunley.h" />
+    <ClInclude Include="Oas.h" />
+    <ClInclude Include="Rush.h" />
+    <ClInclude Include="Surby.h" />
     <ClInclude Include="Teacher.h" />
+    <ClInclude Include="Tilton.h" />
+    <ClInclude Include="Van_Fossen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
