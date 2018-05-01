@@ -1,5 +1,8 @@
 #pragma once
 
+/*
+Parent class for teacher objects
+*/
 class Teacher
 {
 protected:

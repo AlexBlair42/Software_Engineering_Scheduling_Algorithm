@@ -1,4 +1,28 @@
 #include "FillWeek.h"
+#include <iostream>
+using std::endl;
+using std::cout;
+using std::cin;
+
+
+/*
+School day is a total of 6.5 hours
+*/
+
+
+////////////////////////////////////////////////////////////////////////////////////
+// Variables that will be needed eventually
+////////////////////////////////////////////////////////////////////////////////////
+
+// total of 6.5 hours
+double SchoolDayTime = 6.5;
+
+double SchoolStart = 8.5;
+double SchoolEnd = 15.00;
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
 
 void Subject::populatedArrays(int subjectWeek[65], int teacherArray[18][2])
 {
