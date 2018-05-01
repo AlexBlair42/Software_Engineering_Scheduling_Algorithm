@@ -9,10 +9,10 @@ int Teacher::Get_Grade_Level()
 
 void Teacher::Set_Grade_Level()
 {
-	
+
 }
 
-void Teacher::Get_Specialist_Status()
+bool Teacher::Get_Specialist_Status()
 {
-	
+	return status;
 }

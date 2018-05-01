@@ -3,5 +3,5 @@
 
 class Kinne : public Teacher
 {
-	 
+	 Teacher.
 };
