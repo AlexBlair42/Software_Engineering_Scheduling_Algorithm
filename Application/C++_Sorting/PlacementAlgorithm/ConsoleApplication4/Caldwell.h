@@ -3,8 +3,6 @@
 
 
 class Caldwell : public Teacher
-{
-protected:
-	int Grade_Level = 5;
-
+{	
+	Teacher::Set_Grade_Level(5);
 };
