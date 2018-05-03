@@ -7,7 +7,7 @@ int Teacher::Get_Grade_Level()
 	return Grade_Level;
 }
 
-virtual int Teacher::Set_Grade_Level(int gl)
+int Teacher::Set_Grade_Level(int gl)
 {
 	Grade_Level = gl;
 }
