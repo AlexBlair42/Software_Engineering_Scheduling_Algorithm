@@ -11,25 +11,12 @@ protected:
 	std::string Name;
 public:
 
-	bool Get_Specialist_Status()
-	{
-		return Is_in_Specialist;
-	}
+	bool Get_Specialist_Status();
+	std::string Get_Name(std::string Name);
 
-	std::string Get_Name(std::string Name)
-	{
-		return Name;
-	}
+	virtual int Set_Grade_Level(int gl);
 
-	int Set_Grade_Level(int gl)
-	{
-		Grade_Level = gl;
-	}
-
-	int Get_Grade_Level()
-	{
-		return Grade_Level;
-	}
+	int Get_Grade_Level();
 
 	Teacher(int Grade_Level, bool Is_In_Specialist, std::string Name) 
 	{
