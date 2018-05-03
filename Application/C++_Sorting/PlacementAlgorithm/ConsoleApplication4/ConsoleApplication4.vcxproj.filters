@@ -21,9 +21,6 @@
     <ClCompile Include="FillWeek.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Teacher.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FillWeek.h">
@@ -63,6 +60,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Caldwell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cavanaugh_Walsh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constantine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Haberman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Higgins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Howe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Jordan.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

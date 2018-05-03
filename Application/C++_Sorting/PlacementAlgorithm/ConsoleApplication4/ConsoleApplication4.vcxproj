@@ -141,13 +141,18 @@
   <ItemGroup>
     <ClCompile Include="FillWeek.cpp" />
     <ClCompile Include="Source.cpp" />
-    <ClCompile Include="Teacher.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Caldwell.h" />
+    <ClInclude Include="Cavanaugh_Walsh.h" />
     <ClInclude Include="Connor_Boyle.h" />
+    <ClInclude Include="Constantine.h" />
     <ClInclude Include="Duley.h" />
     <ClInclude Include="FillWeek.h" />
+    <ClInclude Include="Haberman.h" />
+    <ClInclude Include="Higgins.h" />
+    <ClInclude Include="Howe.h" />
+    <ClInclude Include="Jordan.h" />
     <ClInclude Include="Kinne.h" />
     <ClInclude Include="May.h" />
     <ClInclude Include="Nunley.h" />
