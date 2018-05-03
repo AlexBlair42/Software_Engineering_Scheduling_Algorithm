@@ -11,9 +11,9 @@ private:
 	int weekSlots;
 
 public:
-	void fillWeek();
+	void fillWeek(int weekSlots, int subjects, int teachers, int hour);
 
 	int **generateWeek(int weekSlots, int subjects);
 
-	int generateTeachers(int teacher[18][2]);
+	int **generateTeachers(int teachers, int hour);
 };

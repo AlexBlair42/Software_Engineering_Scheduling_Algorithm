@@ -14,7 +14,7 @@ public:
 	bool Get_Specialist_Status();
 	std::string Get_Name(std::string Name);
 
-	virtual int Set_Grade_Level(int gl);
+	virtual int Set_Grade_Level(int gl) {}
 
 	int Get_Grade_Level();
 
