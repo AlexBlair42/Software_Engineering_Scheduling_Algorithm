@@ -148,7 +148,6 @@
     <ClInclude Include="Connor_Boyle.h" />
     <ClInclude Include="Duley.h" />
     <ClInclude Include="FillWeek.h" />
-    <ClInclude Include="Jordan.h" />
     <ClInclude Include="Kinne.h" />
     <ClInclude Include="May.h" />
     <ClInclude Include="Nunley.h" />

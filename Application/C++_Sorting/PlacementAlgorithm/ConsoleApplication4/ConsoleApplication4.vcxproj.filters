@@ -56,9 +56,6 @@
     <ClInclude Include="Surby.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Jordan.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Tilton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
