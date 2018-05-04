@@ -21,6 +21,8 @@ public:
 
 	virtual int Get_Grade_Level() { return 0; }
 
+	Teacher(){}
+
 	Teacher(int Grade_Level, bool Is_In_Specialist, std::string Name) 
 	{
 		Grade_Level = this -> Grade_Level;

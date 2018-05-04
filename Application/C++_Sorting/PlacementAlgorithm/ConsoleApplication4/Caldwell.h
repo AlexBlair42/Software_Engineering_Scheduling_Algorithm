@@ -19,4 +19,7 @@ public:
 	{
 		return Is_in_Specialist;
 	}
+
+	Caldwell(){}
+	
 };
