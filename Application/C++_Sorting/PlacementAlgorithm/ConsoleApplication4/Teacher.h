@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
 
+// In the process of refactoring to make factory method with parameters for grade
+// Level and name as well as any constraints instead of multiple headers with identical code
 
 
 // Website for factory Methods
