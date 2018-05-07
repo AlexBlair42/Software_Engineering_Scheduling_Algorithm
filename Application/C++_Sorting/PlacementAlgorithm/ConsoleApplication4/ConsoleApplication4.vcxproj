@@ -142,7 +142,7 @@
     <ClCompile Include="FillWeek.cpp" />
     <ClCompile Include="Kindergarten_T.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Teacher.cpp" />
+    <ClCompile Include="Teachers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Caldwell.h" />

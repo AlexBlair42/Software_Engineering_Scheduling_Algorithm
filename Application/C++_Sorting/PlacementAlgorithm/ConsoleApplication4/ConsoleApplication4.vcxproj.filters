@@ -21,10 +21,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Teacher.cpp">
+    <ClCompile Include="Kindergarten_T.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Kindergarten_T.cpp">
+    <ClCompile Include="Teachers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
