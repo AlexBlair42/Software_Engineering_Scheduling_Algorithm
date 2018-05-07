@@ -20,30 +20,24 @@ class Teacher
 protected:
 
 	bool Is_in_Specialist = false;
-	
-	int Grade_Level;
-	
+
 	std::string Name;
 
 public:
 
-	virtual std::string Get_Name() { return Name; }
+	virtual std::string Get_Name() const = 0;
 
-	virtual void Set_Name(std::string nm){}
+	virtual void Set_Name(std::string nm) const = 0;
 
-	virtual bool Get_Specialist_Status() { return Is_in_Specialist; }
+	virtual bool Get_Specialist_Status() const = 0;
 
-	virtual void Set_Grade_Level(int gl) {}
+	virtual Teacher* Create(Teacher_Type) const = 0;
 
-	virtual int Get_Grade_Level() { return 0; }
-
-	static Teacher* Create(Teacher_Type);
-
-	Teacher(int Grade_Level, bool Is_In_Specialist, std::string Name) 
+	/*
+	Teacher(bool Is_In_Specialist, std::string Name) 
 	{
-		Grade_Level = this -> Grade_Level;
 		Is_In_Specialist = this -> Is_in_Specialist;
 		Name = this -> Name;
 	}
-
+	*/
 };

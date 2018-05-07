@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FillWeek.cpp" />
+    <ClCompile Include="Kindergarten_T.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Teacher.cpp" />
   </ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="Higgins.h" />
     <ClInclude Include="Howe.h" />
     <ClInclude Include="Jordan.h" />
+    <ClInclude Include="Kindergarten_T.h" />
     <ClInclude Include="Kinne.h" />
     <ClInclude Include="May.h" />
     <ClInclude Include="Nunley.h" />

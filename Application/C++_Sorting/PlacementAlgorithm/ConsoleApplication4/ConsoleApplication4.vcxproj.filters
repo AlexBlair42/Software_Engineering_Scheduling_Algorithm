@@ -24,6 +24,9 @@
     <ClCompile Include="Teacher.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Kindergarten_T.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FillWeek.h">
@@ -81,6 +84,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Jordan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kindergarten_T.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
