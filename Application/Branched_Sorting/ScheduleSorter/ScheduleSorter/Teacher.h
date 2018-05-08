@@ -21,11 +21,11 @@ protected:
 
 public:
 
-	virtual std::string get_name() const = 0;
+	std::string get_name();
 
-	virtual void set_name(std::string nm);
+	void set_name(std::string nm);
 
-	virtual bool get_specialist_status() const = 0;
+	bool get_specialist_status();
 
 	//virtual Teacher* create(Teacher_Type) const = 0;
 

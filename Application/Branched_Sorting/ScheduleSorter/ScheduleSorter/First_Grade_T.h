@@ -3,6 +3,7 @@
 
 class First_Grade_T : public virtual Teacher
 {
-	void print_teacher_type();
+public:
+	void print_teacher_info();
 	First_Grade_T();
 };

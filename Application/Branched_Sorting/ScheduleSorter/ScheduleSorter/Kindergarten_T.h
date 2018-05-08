@@ -4,6 +4,6 @@
 class Kindergarten_T : public virtual Teacher
 {
 public:
-	static void print_teacher_type();
+	void print_teacher_info();
 	Kindergarten_T();
 };

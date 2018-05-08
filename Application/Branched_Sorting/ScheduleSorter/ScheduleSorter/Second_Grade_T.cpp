@@ -5,7 +5,7 @@
 
 
 
-void Second_Grade_T::print_teacher_type()
+void Second_Grade_T::print_teacher_info()
 {
 	std::cout << "This is a second grade teacher!" << std::endl;
 }

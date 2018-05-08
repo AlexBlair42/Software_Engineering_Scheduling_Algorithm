@@ -1,12 +1,12 @@
 #include "Teacher.h"
 
 
-std::string Teacher::get_name() const
+std::string Teacher::get_name()
 {
 	return Name;
 }
 
-bool Teacher::get_specialist_status() const
+bool Teacher::get_specialist_status()
 {
 	return Specialist_Status;
 }

@@ -21,11 +21,6 @@ int max_four = 2;
 int max_five = 2;
 int max_six = 2;
 
-enum Teacher_Type
-{
-	Kindergarten, First_Grade, Second_Grade, Third_Grade, Fourth_Grade, Fifth_Grade, Sixth_Grade
-};
-
 
 Teacher* create_teacher()
 {
@@ -44,22 +39,21 @@ Teacher* create_teacher()
 	}
 	for (int h = 0; h < max_three; h++)
 	{
-
+		Third_Grade_T *third = new Third_Grade_T();
 	}
 	for (int g = 0; g < max_four; g++)
 	{
-
+		Fourth_Grade_T *fourth = new Fourth_Grade_T();
 	}
 	for (int f = 0; f < max_five; f++)
 	{
-
+		Fifth_Grade_T *fifth = new Fifth_Grade_T();
 	}
 	for (int a = 0; a < max_six; a++)
 	{
-
+		Sixth_Grade_T *sixth = new Sixth_Grade_T();
 	}
 }
-
 
 void Load_Teacher_Vector()
 {

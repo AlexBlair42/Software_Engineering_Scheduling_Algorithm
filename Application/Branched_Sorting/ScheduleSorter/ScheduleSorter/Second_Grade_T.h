@@ -3,6 +3,7 @@
 
 class Second_Grade_T : public virtual Teacher
 {
-	static void print_teacher_type();
+public:
+	void print_teacher_info();
 	Second_Grade_T();
 };
