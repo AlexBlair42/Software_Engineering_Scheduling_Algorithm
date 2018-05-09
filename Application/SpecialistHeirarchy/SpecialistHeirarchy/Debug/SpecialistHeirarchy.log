@@ -1,0 +1,7 @@
+﻿  Specialist_Factory.cpp
+  Soc_Studies_T.cpp
+  Music_T.cpp
+  Library_T.cpp
+  Generating Code...
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Chris\Documents\GitHub\Software_Engineering_Scheduling_Algorithm\Application\SpecialistHeirarchy\Debug\SpecialistHeirarchy.exe : fatal error LNK1120: 1 unresolved externals
