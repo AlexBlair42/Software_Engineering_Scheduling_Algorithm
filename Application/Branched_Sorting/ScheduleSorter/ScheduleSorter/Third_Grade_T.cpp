@@ -2,6 +2,7 @@
 #include "Teacher.h"
 
 #include <iostream>
+#include <cmath>
 
 
 void Third_Grade_T::print_teacher_info()

@@ -1,6 +1,7 @@
 #include "Teacher.h"
 #include "First_Grade_T.h"
 #include <iostream>
+#include <cmath>
 
 void First_Grade_T::print_teacher_info()
 {

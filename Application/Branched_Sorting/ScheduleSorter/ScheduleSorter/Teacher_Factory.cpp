@@ -1,3 +1,4 @@
+/*
 #include "Teacher.h"
 #include "Kindergarten_T.h"
 #include "First_Grade_T.h"
@@ -61,3 +62,4 @@ Teacher* create_teacher()
 		Teachers.push_back(*sixth);
 	}
 }
+*/

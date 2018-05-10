@@ -1,5 +1,6 @@
 #include "Kindergarten_T.h"
 #include <iostream>
+#include <cmath>
 
 void Kindergarten_T::print_teacher_info()
 {

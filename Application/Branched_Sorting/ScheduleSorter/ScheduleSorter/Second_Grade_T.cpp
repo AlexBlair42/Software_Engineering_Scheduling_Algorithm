@@ -2,7 +2,7 @@
 #include"Second_Grade_T.h"
 #include <iostream>
 #include <string>
-
+#include <cmath>
 
 
 void Second_Grade_T::print_teacher_info()

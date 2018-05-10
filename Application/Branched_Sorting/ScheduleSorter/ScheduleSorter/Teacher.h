@@ -27,13 +27,6 @@ public:
 
 	bool get_specialist_status();
 
-	//virtual Teacher* create(Teacher_Type) const = 0;
+	Teacher* create_teacher();
 
-	/*
-	Teacher(bool Is_In_Specialist, std::string Name)
-	{
-	Is_In_Specialist = this -> Is_in_Specialist;
-	Name = this -> Name;
-	}
-	*/
 };
