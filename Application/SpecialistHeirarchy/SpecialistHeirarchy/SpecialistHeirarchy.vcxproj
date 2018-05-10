@@ -32,7 +32,7 @@
     <ClCompile Include="Music_T.cpp" />
     <ClCompile Include="Phys_Ed_T.cpp" />
     <ClCompile Include="Soc_Studies_T.cpp" />
-    <ClCompile Include="Specialist_Factory.cpp" />
+    <ClCompile Include="SpecialistVector.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AB4D8791-2D67-46B8-A687-4C18E9BD5F70}</ProjectGuid>

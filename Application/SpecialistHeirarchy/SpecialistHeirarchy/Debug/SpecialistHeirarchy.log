@@ -1,7 +1,8 @@
-﻿  Specialist_Factory.cpp
+﻿  SpecialistVector.cpp
   Soc_Studies_T.cpp
+  Phys_Ed_T.cpp
   Music_T.cpp
   Library_T.cpp
+  Art_T.cpp
   Generating Code...
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\Chris\Documents\GitHub\Software_Engineering_Scheduling_Algorithm\Application\SpecialistHeirarchy\Debug\SpecialistHeirarchy.exe : fatal error LNK1120: 1 unresolved externals
+c:\users\chris\documents\github\software_engineering_scheduling_algorithm\application\specialistheirarchy\specialistheirarchy\specialistvector.cpp(31): error C4716: 'create_specialists': must return a value
