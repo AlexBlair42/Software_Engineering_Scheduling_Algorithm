@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -142,6 +142,9 @@
     <ClCompile Include="Fifth_Grade_T.cpp" />
     <ClCompile Include="First_Grade_T.cpp" />
     <ClCompile Include="Fourth_Grade_T.cpp" />
+    <ClCompile Include="inClass.cpp" />
+    <ClCompile Include="inLunch.cpp" />
+    <ClCompile Include="inSpec.cpp" />
     <ClCompile Include="Kindergarten_T.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Second_Grade_T.cpp" />
@@ -154,11 +157,15 @@
     <ClInclude Include="Fifth_Grade_T.h" />
     <ClInclude Include="First_Grade_T.h" />
     <ClInclude Include="Fourth_Grade_T.h" />
+    <ClInclude Include="inClass.h" />
+    <ClInclude Include="inLunch.h" />
+    <ClInclude Include="inSpec.h" />
     <ClInclude Include="Kindergarten_T.h" />
     <ClInclude Include="Second_Grade_T.h" />
     <ClInclude Include="Sixth_Grade_T.h" />
     <ClInclude Include="Teacher.h" />
     <ClInclude Include="Third_Grade_T.h" />
+    <ClInclude Include="TimeSlot.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

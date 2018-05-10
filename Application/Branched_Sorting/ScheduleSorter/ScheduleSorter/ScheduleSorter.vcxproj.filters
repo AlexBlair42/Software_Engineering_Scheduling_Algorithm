@@ -45,6 +45,15 @@
     <ClCompile Include="Sixth_Grade_T.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="inClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inSpec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inLunch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Teacher.h">
@@ -69,6 +78,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sixth_Grade_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inLunch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inSpec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inClass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
