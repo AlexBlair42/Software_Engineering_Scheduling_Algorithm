@@ -1,0 +1,12 @@
+﻿  Teacher.cpp
+e:\github\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\teacher.cpp(50): error C2512: 'Kindergarten_T::Kindergarten_T': no appropriate default constructor available
+  Kindergarten_t.cpp
+e:\github\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\kindergarten_t.cpp(10): error C2512: 'Teacher': no appropriate default constructor available
+  e:\github\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\teacher.h(23): note: see declaration of 'Teacher'
+e:\github\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\kindergarten_t.cpp(10): error C2275: 'Teacher': illegal use of this type as an expression
+e:\github\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\kindergarten_t.cpp(10): error C2228: left of '.get_name' must have class/struct/union
+  Generating Code...
+  Compiling...
+  Main.cpp
+e:\github\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\main.cpp(16): error C2512: 'Teacher::Teacher': no appropriate default constructor available
+  Generating Code...
