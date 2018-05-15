@@ -4,7 +4,6 @@
 #include <iostream>
 #include <string>
 
-
 using std::cout;
 using std::cin;
 using std::endl;
@@ -16,7 +15,6 @@ int main()
 	Teacher *teacher = new Teacher();
 	teacher->create_teacher();
 
-	Teacher.Create(*Teacher);
 
 	std::cin.get();
 }

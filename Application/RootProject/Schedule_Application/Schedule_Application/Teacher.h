@@ -12,12 +12,12 @@
 Parent class for teacher objects
 */
 
-/*
+
 enum Teacher_Types
 {
 	Kindergarten, FirstGrade, SecondGrade, ThirdGrade, FourthGrade, FifthGrade, SixthGrade
 };
-*/
+
 
 class Teacher
 {
@@ -37,12 +37,14 @@ public:
 
 	Teacher() = default;
 
-	std::string get_name();
+	~Teacher();
 
-	void set_name(std::string nm);
+	std::string get_name() = 0;
 
-	bool get_specialist_status();
+	void set_name(std::string nm) = 0;
 
-	Teacher* create_teacher();
+	bool get_specialist_status() = 0;
+
+	static Teacher* create_teacher(Teacher_Types);
 
 };

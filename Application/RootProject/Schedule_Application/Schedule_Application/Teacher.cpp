@@ -25,3 +25,6 @@ Teacher::Teacher(std::string name, bool status)
 	name = Name;
 	status = Status;
 }
+
+// Destructor
+Teacher::~Teacher(){}

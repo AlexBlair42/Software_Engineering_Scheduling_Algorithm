@@ -8,7 +8,6 @@ protected:
 	int max;
 
 public:
-	using Teacher::Teacher;
 	void print_teacher_info();
 	Kindergarten_T() : Teacher(){}
 };

@@ -111,6 +111,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Client.cpp" />
     <ClCompile Include="Kindergarten_t.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Teacher.cpp" />

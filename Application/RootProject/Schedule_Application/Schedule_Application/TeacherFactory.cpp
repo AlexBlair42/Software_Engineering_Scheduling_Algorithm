@@ -2,11 +2,11 @@
 #include "Teacher.h"
 #include "Kindergarten_T.h"
 
-#include <vector>
+//#include <vector>
 
-std::vector<Teacher> Teachers;
+//std::vector<Teacher> Teachers;
 
-
+/*
 int max_k = 2;
 int max_one = 2;
 int max_two = 2;
@@ -14,7 +14,8 @@ int max_three = 3;
 int max_four = 2;
 int max_five = 2;
 int max_six = 2;
-
+*/
+/*
 Teacher* create_teacher()
 {
 	for (int i = 0; i < max_k; i++)
@@ -52,5 +53,15 @@ Teacher* create_teacher()
 	Sixth_Grade_T *sixth = new Sixth_Grade_T();
 	Teachers.push_back(*sixth);
 	}
-	*/
+	
+}
+*/
+
+
+Teacher* Teacher::create_teacher(Teacher_Types type)
+{
+	if (type == Kindergarten)
+	{
+		return new Kindergarten_T();
+	}
 }
