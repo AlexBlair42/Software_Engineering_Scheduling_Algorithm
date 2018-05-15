@@ -24,13 +24,18 @@ class Teacher
 
 protected:
 
+	// Member variables
 	std::string Name;
 
 	bool Status;
 
 public:
 
+	// Function signatures for teacher methods
+
 	Teacher(std::string name, bool status);
+
+	Teacher() = default;
 
 	std::string get_name();
 

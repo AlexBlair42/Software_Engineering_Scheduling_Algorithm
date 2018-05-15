@@ -114,6 +114,7 @@
     <ClCompile Include="Kindergarten_t.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Teacher.cpp" />
+    <ClCompile Include="TeacherFactory.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kindergarten_T.h" />
