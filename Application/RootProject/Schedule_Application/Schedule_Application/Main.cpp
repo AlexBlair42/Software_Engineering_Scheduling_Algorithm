@@ -58,8 +58,7 @@ int main()
 		Factory->Create(SixthGrade);
 	}
 
-	SixthGrade_T s;
-	s.print_teacher_info();
+	for(int v = 0; v < Specialis)
 
 	std::cin.get();
 }
