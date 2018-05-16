@@ -12,13 +12,6 @@
 Parent class for teacher objects
 */
 
-
-enum Teacher_Types
-{
-	Kindergarten, FirstGrade, SecondGrade, ThirdGrade, FourthGrade, FifthGrade, SixthGrade
-};
-
-
 class Teacher
 {
 
@@ -33,18 +26,16 @@ public:
 
 	// Function signatures for teacher methods
 
-	Teacher(std::string name, bool status);
-
-	Teacher() = default;
+	Teacher();
 
 	~Teacher();
 
-	std::string get_name() = 0;
+	virtual std::string get_name();
 
-	void set_name(std::string nm) = 0;
+	virtual void set_name(std::string nm);
 
-	bool get_specialist_status() = 0;
+	virtual bool get_status();
 
-	static Teacher* create_teacher(Teacher_Types);
+	virtual void set_status(bool stat);
 
 };

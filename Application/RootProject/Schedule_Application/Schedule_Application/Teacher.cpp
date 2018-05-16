@@ -9,7 +9,7 @@ std::string Teacher::get_name()
 	return Name;
 }
 
-bool Teacher::get_specialist_status()
+bool Teacher::get_status()
 {
 	return Status;
 }
@@ -19,11 +19,15 @@ void Teacher::set_name(std::string nm)
 	Name = nm;
 }
 
-// Constructor that takes a name and status
-Teacher::Teacher(std::string name, bool status)
+void Teacher::set_status(bool stat)
 {
-	name = Name;
-	status = Status;
+	Status = stat;
+}
+
+// Constructor that takes a name and status
+Teacher::Teacher()
+{
+
 }
 
 // Destructor
