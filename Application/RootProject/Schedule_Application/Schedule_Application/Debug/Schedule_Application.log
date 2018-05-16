@@ -1,5 +1,3 @@
 ﻿  TeacherFactory.cpp
-  Main.cpp
-  Generating Code...
-c:\github\software_engineering\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\teacherfactory.cpp(28): warning C4715: 'TeacherFactory::Create': not all control paths return a value
+c:\github\software_engineering\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\teacherfactory.cpp(60): warning C4715: 'TeacherFactory::Create': not all control paths return a value
   Schedule_Application.vcxproj -> C:\GitHub\Software_Engineering\Software_Engineering_Scheduling_Algorithm\Application\RootProject\Schedule_Application\Debug\Schedule_Application.exe

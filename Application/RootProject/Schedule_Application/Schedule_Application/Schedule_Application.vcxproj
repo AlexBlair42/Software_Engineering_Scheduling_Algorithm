@@ -111,19 +111,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FifthGrade_T.cpp" />
     <ClCompile Include="FirstGrade_T.cpp" />
+    <ClCompile Include="FourthGrade_T.cpp" />
     <ClCompile Include="Kindergarten_t.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="SecondGrade_T.cpp" />
+    <ClCompile Include="SixthGrade_T.cpp" />
     <ClCompile Include="Teacher.cpp" />
     <ClCompile Include="TeacherFactory.cpp" />
+    <ClCompile Include="ThirdGrade_T.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FifthGrade_T.h" />
     <ClInclude Include="FirstGrade_T.h" />
+    <ClInclude Include="FourthGrade_T.h" />
     <ClInclude Include="Kindergarten_T.h" />
     <ClInclude Include="SecondGrade_T.h" />
+    <ClInclude Include="SixthGrade_T.h" />
     <ClInclude Include="Teacher.h" />
     <ClInclude Include="TeacherFactory.h" />
+    <ClInclude Include="ThirdGrade_T.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

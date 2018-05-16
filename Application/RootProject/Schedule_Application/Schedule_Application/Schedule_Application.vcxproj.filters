@@ -33,6 +33,18 @@
     <ClCompile Include="SecondGrade_T.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ThirdGrade_T.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FourthGrade_T.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FifthGrade_T.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SixthGrade_T.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Teacher.h">
@@ -48,6 +60,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SecondGrade_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdGrade_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FourthGrade_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FifthGrade_T.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SixthGrade_T.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
