@@ -145,6 +145,7 @@
     <ClInclude Include="Teacher.h" />
     <ClInclude Include="TeacherFactory.h" />
     <ClInclude Include="ThirdGrade_T.h" />
+    <ClInclude Include="WeekVector.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="NumberClasses.txt" />

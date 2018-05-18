@@ -113,6 +113,9 @@
     <ClInclude Include="SpecialistVector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="WeekVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="NumberClasses.txt">

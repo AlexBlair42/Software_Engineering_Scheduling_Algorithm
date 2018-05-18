@@ -18,9 +18,13 @@ class Teacher
 protected:
 
 	// Member variables
-	std::string Name;
+	std::string Name = "";
 
 	bool Status;
+
+	int Grade;
+
+	int Time;
 
 public:
 
@@ -38,4 +42,11 @@ public:
 
 	virtual void set_status(bool stat);
 
+	virtual void set_grade(int gr);
+
+	virtual int get_grade();
+
+	virtual void set_time(int tm);
+
+	virtual int get_time();
 };

@@ -2,16 +2,19 @@
 #include "Teacher.h"
 #include "Kindergarten_T.h"
 #include "FirstGrade_T.h"
+#include "SecondGrade_T.h"
+#include "ThirdGrade_T.h"
+#include "FourthGrade_T.h"
+#include "FifthGrade_T.h"
 #include "SixthGrade_T.h"
+#include "WeekVector.h"
 
 #include <iostream>
 #include <string>
 #include <vector>
 #include <iterator>
-#include "SecondGrade_T.h"
-#include "ThirdGrade_T.h"
-#include "FourthGrade_T.h"
-#include "FifthGrade_T.h"
+#include <fstream>
+
 
 using std::cout;
 using std::cin;
@@ -27,7 +30,7 @@ int max_5 = 2;
 int max_6 = 2;
 int maxClasses = (max_k + max_1 + max_2 + max_3 + max_4 + max_5 + max_6);
 
-std::vector<Teacher> Teachers;
+//std::vector<Teacher> Teachers;
 
 int main()
 {
@@ -35,7 +38,7 @@ int main()
 	// Generate Teacher objects while there are classes for to represent these objects
 	// also, place these objects in a vector for storage.
 
-	TeacherFactory *Factory = new TeacherFactory();
+	/*TeacherFactory *Factory = new TeacherFactory();
 
 	do
 	{
@@ -78,13 +81,28 @@ int main()
 			Factory->Create(SixthGrade);
 			Teachers.push_back(SixthGrade_T());
 		}
-	} while (!maxClasses);
+	} while (!maxClasses);*/
 
-	/*
-	for (int *i = 0; *i < Teachers.end(); i++)
+	VectorWeek ss;
+	ss.setTimes();
+	vector<Teacher> Teach = ss.returnTeachers();
+
+	std::cout << "This is all the teachers placed for Social Studies over a three day period.\n\n";
+	for (int i = 0; i < Teach.size(); i++)
 	{
-		
+		//cout << "here" << endl;
+		if (Teach[i].get_grade() == 1)
+			cout << Teach[i].get_name() << " is the teacher for " << Teach[i].get_grade() << "st grade." << endl;
+		else if (Teach[i].get_grade() == 0)
+			cout << Teach[i].get_name() << " is the teacher for Kindergarten ";
+		else if (Teach[i].get_grade() == 2)
+			cout << Teach[i].get_name() << " is the teacher for " << Teach[i].get_grade() << "nd grade." << endl;
+		else if (Teach[i].get_grade() == 3)
+			cout << Teach[i].get_name() << " is the teacher for " << Teach[i].get_grade() << "rd grade." << endl;
+		else
+			cout << Teach[i].get_name() << " is the teacher for " << Teach[i].get_grade() << "th grade." << endl;
+		cout << "and has their class in Social Studies at " << Teach[i].get_time() << "\n\n";
 	}
-*/
+
 	std::cin.get();
 }

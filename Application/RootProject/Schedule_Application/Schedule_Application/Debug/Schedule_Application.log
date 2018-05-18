@@ -1,2 +1,5 @@
 ﻿  Main.cpp
+c:\github\software_engineering\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\weekvector.h(96): warning C4018: '<': signed/unsigned mismatch
+c:\github\software_engineering\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\weekvector.h(203): warning C4018: '<': signed/unsigned mismatch
+c:\github\software_engineering\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\main.cpp(91): warning C4018: '<': signed/unsigned mismatch
   Schedule_Application.vcxproj -> C:\GitHub\Software_Engineering\Software_Engineering_Scheduling_Algorithm\Application\RootProject\Schedule_Application\Debug\Schedule_Application.exe
