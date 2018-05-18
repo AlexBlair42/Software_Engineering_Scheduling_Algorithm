@@ -1,8 +1,0 @@
-﻿  SpecialistVector.cpp
-  Soc_Studies_T.cpp
-  Phys_Ed_T.cpp
-  Music_T.cpp
-  Library_T.cpp
-  Art_T.cpp
-  Generating Code...
-c:\users\chris\documents\github\software_engineering_scheduling_algorithm\application\specialistheirarchy\specialistheirarchy\specialistvector.cpp(31): error C4716: 'create_specialists': must return a value
