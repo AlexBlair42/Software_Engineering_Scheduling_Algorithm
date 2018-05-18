@@ -130,15 +130,15 @@ int main()
 	{
 		//cout << "here" << endl;
 		if (Teach[i].get_grade() == 1)
-			cout << Teach[i].get_name() << " is the teacher for " << Teach[i].get_grade() << "st grade." << endl;
+			cout << Teach[i].get_name() << " is a teacher for " << Teach[i].get_grade() << "st grade" << endl;
 		else if (Teach[i].get_grade() == 0)
 			cout << Teach[i].get_name() << " is the teacher for Kindergarten ";
 		else if (Teach[i].get_grade() == 2)
-			cout << Teach[i].get_name() << " is the teacher for " << Teach[i].get_grade() << "nd grade." << endl;
+			cout << Teach[i].get_name() << " is a teacher for " << Teach[i].get_grade() << "nd grade" << endl;
 		else if (Teach[i].get_grade() == 3)
-			cout << Teach[i].get_name() << " is the teacher for " << Teach[i].get_grade() << "rd grade." << endl;
+			cout << Teach[i].get_name() << " is a teacher for " << Teach[i].get_grade() << "rd grade" << endl;
 		else
-			cout << Teach[i].get_name() << " is the teacher for " << Teach[i].get_grade() << "th grade." << endl;
+			cout << Teach[i].get_name() << " is a teacher for " << Teach[i].get_grade() << "th grade" << endl;
 		cout << "and has their class in Social Studies at " << Teach[i].get_time() << "\n\n";
 	}
 
