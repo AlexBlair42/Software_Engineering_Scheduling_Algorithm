@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 #include "TeacherFactory.h"
 #include "Kindergarten_T.h"

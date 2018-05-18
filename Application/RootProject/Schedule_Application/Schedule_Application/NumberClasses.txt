@@ -1,0 +1,8 @@
+int max_k = 2;
+int max_1 = 2;
+int max_2 = 2;
+int max_3 = 3;
+int max_4 = 2;
+int max_5 = 2;
+int max_6 = 2;
+int maxClasses = (max_k + max_1 + max_2 + max_3 + max_4 + max_5 + max_6);

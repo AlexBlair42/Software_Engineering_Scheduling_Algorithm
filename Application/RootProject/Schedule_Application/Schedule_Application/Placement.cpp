@@ -4,11 +4,6 @@
 
 #include "Teacher.h"
 
-// Integrating function to fill week into vector
+// Function to fill vector of week
 
 std::vector<Teacher> Week;
-
-void PlaceTeachers()
-{
-	
-}

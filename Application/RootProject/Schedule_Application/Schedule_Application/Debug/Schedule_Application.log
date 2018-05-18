@@ -1,18 +1,2 @@
-﻿  ThirdGrade_T.cpp
-  TeacherFactory.cpp
-  Teacher.cpp
-  Soc_Studies_T.cpp
-  SixthGrade_T.cpp
-  SecondGrade_T.cpp
-  Phys_Ed_T.cpp
-  Music_T.cpp
-  Main.cpp
-  Library_T.cpp
-  Kindergarten_t.cpp
-  FourthGrade_T.cpp
-  FirstGrade_T.cpp
-  FifthGrade_T.cpp
-  Art_T.cpp
-  Generating Code...
-f:\github\software_engineering_scheduling_algorithm\application\rootproject\schedule_application\schedule_application\teacherfactory.cpp(60): warning C4715: 'TeacherFactory::Create': not all control paths return a value
-  Schedule_Application.vcxproj -> F:\GitHub\Software_Engineering_Scheduling_Algorithm\Application\RootProject\Schedule_Application\Debug\Schedule_Application.exe
+﻿  Main.cpp
+  Schedule_Application.vcxproj -> C:\GitHub\Software_Engineering\Software_Engineering_Scheduling_Algorithm\Application\RootProject\Schedule_Application\Debug\Schedule_Application.exe
