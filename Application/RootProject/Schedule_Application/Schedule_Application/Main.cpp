@@ -2,35 +2,73 @@
 #include "Teacher.h"
 #include "Kindergarten_T.h"
 #include "FirstGrade_T.h"
+#include "SecondGrade_T.h"
+#include "ThirdGrade_T.h"
+#include "FourthGrade_T.h"
+#include "FifthGrade_T.h"
 #include "SixthGrade_T.h"
+
 
 #include <iostream>
 #include <string>
 #include <vector>
 #include <iterator>
-#include "SecondGrade_T.h"
-#include "ThirdGrade_T.h"
-#include "FourthGrade_T.h"
-#include "FifthGrade_T.h"
+#include <fstream>
+#include <stdlib.h> 
+
 
 using std::cout;
 using std::cin;
 using std::endl;
 using std::string;
 
-int max_k = 2;
-int max_1 = 2;
-int max_2 = 2;
-int max_3 = 3;
-int max_4 = 2;
-int max_5 = 2;
-int max_6 = 2;
+int max_k;
+int max_1;
+int max_2;
+int max_3;
+int max_4;
+int max_5;
+int max_6;
 int maxClasses = (max_k + max_1 + max_2 + max_3 + max_4 + max_5 + max_6);
+
+
+std :: ifstream classnums ("NumberClasses.txt");
+std :: string line;
+int val;
+int i =0;
+int nums[7];
+
+
+
 
 std::vector<Teacher> Teachers;
 
 int main()
 {
+
+	if (classnums.is_open())
+	{
+		while (getline(classnums, line))
+		{
+			val = atoi(line);
+			nums[i] = val;
+			i++;
+		}
+			
+		i = 0;
+		classnums.close();
+		
+		max_k = nums[0];
+		max_1 = nums[1];
+		max_2 = nums[2];
+		max_3 = nums[3];
+		max_4 = nums[4];
+		max_5 = nums[5];
+		max_6 = nums[6];
+
+	}
+
+
 
 	// Generate Teacher objects while there are classes for to represent these objects
 	// also, place these objects in a vector for storage.
